@@ -11,7 +11,7 @@ stripe customers list
 stripe customers create ...
 ```
 
-**Retrive**
+**etrieve**
 ```
 stripe customers retrieve <customer id>
 ```
