@@ -15,3 +15,18 @@ stripe customers create ...
 ```
 stripe customers retrieve <customer id>
 ```
+
+# Payouts
+https://stripe.com/docs/api/payouts
+
+**List**
+```
+stripe payouts list
+```
+
+**Create**
+```
+stripe payouts create \
+  --amount=1100 \
+  --currency=usd
+```
